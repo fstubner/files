@@ -1,0 +1,1 @@
+<!-- Read result r2 - FileTypesWidget.vue content -->

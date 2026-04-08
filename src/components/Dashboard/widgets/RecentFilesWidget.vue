@@ -1,0 +1,1 @@
+<!-- Read result r16 - RecentFilesWidget.vue content -->
