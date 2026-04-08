@@ -1,0 +1,22 @@
+{
+  // Auto-forward dev ports from WSL to Windows
+  "remote.autoForwardPorts": true,
+  "remote.autoForwardPortsSource": "hybrid",
+  "remote.restoreForwardedPorts": true,
+
+  // Ensure our app's dev port is forwarded and opened in the browser
+  "remote.forwardPorts": [1420],
+  "remote.portsAttributes": {
+    "1420": {
+      "label": "AI File Explorer (Vite/Tauri)",
+      "protocol": "http",
+      "onAutoForward": "openBrowser"
+    },
+    // Optional alternate Vite port if used
+    "5173": {
+      "label": "Vite (alt)",
+      "protocol": "http",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}
